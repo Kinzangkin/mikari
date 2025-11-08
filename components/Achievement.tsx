@@ -30,7 +30,7 @@ const achievements = [
 
 export default function Achievement() {
   return (
-    <section className=" relative py-20 px-6">
+    <section className=" relative py-20 px-6 mt-5">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">

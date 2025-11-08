@@ -4,7 +4,7 @@ import { FaInstagram, FaTiktok, FaDiscord, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="w-full py-4 md:py-6 px-4 md:px-8">
+    <footer className="w-full py-4 md:py-6 px-4 md:px-8 mt-5">
       <div className="max-w-7xl mx-auto z-20 relative">
         <div className="bg-blue-900/70 backdrop-blur-xl rounded-2xl p-6 border-2 border-blue-700/50 shadow-2xl items-center flex sm:flex-row sm:justify-between flex-col gap-5">
           {/* Left Section - Copyright */}

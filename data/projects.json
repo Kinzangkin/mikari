@@ -1,98 +1,86 @@
 [
   {
     "id": 1,
-    "title": "Level up",
-    "media": "https://youtu.be/KzAvc9QWjV0?si=rMqBwEV8z2Or3vZR",
-    "type": "Amv"
+    "title": "Sample 1",
+    "media": "/image/1.jpg",
+    "link": "https://www.instagram.com/reel/DQoh74Bkk4B/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 2,
-    "title": "Masa depan mu",
-    "media": "https://youtu.be/8KVa3O9or6Y?si=-jl4xNq0N5C_vyq1",
-    "type": "Amv"
+    "title": "Sample 2",
+    "media": "/image/2.jpg",
+    "link": "https://www.instagram.com/reel/DQLZuT6kmZG/?utm_source=ig_web_copy_link",
+    "type": "Animation"
   },
   {
     "id": 3,
-    "title": "3D Modern Minimalis House",
-    "media": "https://youtu.be/kHuufscO_-M?si=xto8iAgNA8UaSJHG",
-    "type": "3d"
+    "title": "Sample 3",
+    "media": "/image/3.jpg",
+    "link": "https://www.instagram.com/reel/DQtqHcOkqNA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 4,
-    "title": "End of Beginning",
-    "media": "https://youtu.be/WGvtliE1298?si=u_rT4GEr43IksWPs",
-    "type": "Amv"
+    "title": "Sample 4",
+    "media": "/image/4.jpg",
+    "link": "https://www.instagram.com/reel/DP_6EDXkgs4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 5,
-    "title": "Shut Up and Dance",
-    "media": "https://youtu.be/rFiSI1SUjjg?si=SIluS7uvt9khQwEX",
-    "type": "Amv"
+    "title": "Sample 5",
+    "media": "/image/5.jpg",
+    "link": "https://www.instagram.com/reel/DQkAB8tkm55/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 6,
-    "title": "3D Cinematic",
-    "media": "https://youtu.be/GVJuvleJasA?si=IWxaNvB3npZ-u_ht",
-    "type": "3d"
+    "title": "Sample 6",
+    "media": "/image/6.jpg",
+    "link": "https://www.instagram.com/reel/DPyQWvFEpKE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 7,
-    "title": "Elaina Jedag-Jedug",
-    "media": "https://youtu.be/jtybWGVeUwA?si=Z9sXkCAaMPZK2NnM",
-    "type": "Jj"
+    "title": "Sample 7",
+    "media": "/image/7.jpg",
+    "link": "https://www.instagram.com/reel/DOfrWD9krhX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 8,
-    "title": "Background Overlay Streaming",
-    "media": "https://drive.google.com/file/d/1qEEnC8ipNNsbsp_vJUYgAUsD13x7Zicb/view?usp=drive_link",
-    "type": "Overlay"
+    "title": "Sample 8",
+    "media": "/image/8.jpg",
+    "link": "https://www.instagram.com/reel/DObhCXLkj9B/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 9,
-    "title": "Highlight Streaming Overlay",
-    "media": "https://drive.google.com/file/d/1YbfBMvZAxPBLNMAuseZD6QDIB4S7kdEJ/view?usp=sharing",
-    "type": "Overlay"
+    "title": "Sample 9",
+    "media": "/image/9.jpg",
+    "link": "https://www.instagram.com/reel/DN2YPuiZMIo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 10,
-    "title": "Rewrite the Stars",
-    "media": "https://youtu.be/sm1N-9D4qL0?si=nmyCAoxqjCLK6JC7",
-    "type": "Amv"
+    "title": "Sample 10",
+    "media": "/image/10.jpg",
+    "link": "https://www.instagram.com/reel/DNvbzgM5Nj0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 11,
-    "title": "Animation JJ MLBB",
-    "media": "https://drive.google.com/file/d/1S5Vw6w98b39eDq6tNWYmONbcJeZ9Pw3H/view?usp=sharing",
-    "type": "3d"
+    "title": "Sample 11",
+    "media": "/image/11.jpg",
+    "link": "https://www.instagram.com/reel/DNAkZ5US3t2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   },
   {
     "id": 12,
-    "title": "3D Animation Kutukan Mantan",
-    "media": "https://drive.google.com/file/d/1hGyLDBg55WWkaALEhf8PyGgkadxmXjZG/view?usp=drivesdk",
-    "type": "3d"
-  },
-  {
-    "id": 13,
-    "title": "Mograph Intro Farewell Eterious",
-    "media": "https://drive.google.com/file/d/1-fUZdyo5NuzDiNKb7EtofJmF06bhwc6e/view?usp=drivesdk",
-    "type": "Overlay"
-  },
-  {
-    "id": 14,
-    "title": "Membership Promotion",
-    "media": "https://drive.google.com/file/d/13V3pi312NDsZl866KhMhQGmz7gul79qG/view?usp=drivesdk",
-    "type": "Overlay"
-  },
-  {
-    "id": 15,
-    "title": "Jedag Jedug Special 100k Like",
-    "media": "https://drive.google.com/file/d/1SMuSpWtePKdxpH7-btxmq9_ZMy0dpsZ9/view?usp=drivesdk",
-    "type": "Jj"
-  },
-  {
-    "id": 16,
-    "title": "Jedag Jedug Golden Let's Party",
-    "media": "https://drive.google.com/file/d/1EUbwSUkG3pvCur_fzvDKlTUUdEwSsMSH/view?usp=drivesdk",
-    "type": "Jj"
+    "title": "Sample 12",
+    "media": "/image/12.jpg",
+    "link": "https://www.instagram.com/reel/DMmN8MmuKUk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "type": "Animation"
   }
 ]

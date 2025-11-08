@@ -17,7 +17,7 @@ function Hero() {
                     <PiSparkleFill />
                 </div>
                 <div className='flex sm:space-x-5 sm:space-y-0 space-y-3 items-center my-10 sm:flex-row flex-col justify-center'>
-                    <a href="">
+                    <a href="#portfolio">
                         <button className='flex p-2 px-5 items-center space-x-2 border-2 sm:w-35 w-90 sm:justify-start justify-center bg-linear-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-white shadow-lg shadow-blue-400/50 border-white/50 rounded-xl  backdrop-blur-sm '>
                             <h1>portofolio</h1>
                             <FaArrowRightLong  className=''/>

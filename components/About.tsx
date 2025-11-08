@@ -11,7 +11,7 @@ export default function ProcessSection() {
 
   return (
     <section className="w-full flex justify-center px-4 py-12">
-      <div className="w-full max-w-6xl bg-white/60 backdrop-blur-md rounded-2xl shadow-lg p-6 md:p-10 flex flex-col lg:flex-row gap-8">
+      <div className="w-full max-w-6xl mt-20 bg-white/60 backdrop-blur-md rounded-2xl shadow-lg p-6 md:p-10 flex flex-col lg:flex-row gap-8">
         {/* Left Section */}
         <div className="flex-1 space-y-4">
           <h2 className="text-2xl md:text-3xl font-semibold text-[#1e2a78] flex items-center gap-2">

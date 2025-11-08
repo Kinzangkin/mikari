@@ -17,8 +17,8 @@ function Portofolio() {
     : filteredProjects.slice(0, 4);
 
   return (
-    <div id="porto" className="flex flex-col justify-center items-center space-y-10 my-0">
-      <div className="flex flex-col items-center">
+    <div className="flex flex-col justify-center items-center space-y-10 my-0">
+      <div className="flex flex-col items-center mt-20">
         <div className="inline-block bg-white/60 backdrop-blur-md px-6 py-3 rounded-full border-2 border-blue-300/50 shadow-lg mb-4">
           <h2 className="text-3xl md:text-4xl text-blue-900">Portfolio Showcase</h2>
         </div>
@@ -27,7 +27,7 @@ function Portofolio() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 justify-center place-items-center w-full sm:px-25 px-5 transition-all duration-500">
         {displayedProjects.map((item) => (
-          <Card key={item.id} title={item.title} media={item.media} type={item.type} />
+          <Card key={item.id} title={item.title} media={item.media} type={item.type} link={item.link} />
         ))}
       </div>
 
