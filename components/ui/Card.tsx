@@ -34,6 +34,7 @@ function Card({ title, media, type, link }: Maincardprops) {
                 src={thumbnailUrl}
                 alt={title}
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 420px"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
 

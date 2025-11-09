@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Portofolio from "@/components/Portofolio";
+import { Promot } from "@/components/Promot";
+import { Tools } from "@/components/Tools";
 
 export default function Home() {
   return (
@@ -26,6 +28,12 @@ export default function Home() {
       </div>
       <div id="achievment">
         <Achievement />
+      </div>
+      <div>
+        <Promot />
+      </div>
+      <div>
+        <Tools />
       </div>
       <div id="contact">
         <Footer />

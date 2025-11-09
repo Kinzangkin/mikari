@@ -41,7 +41,7 @@ function Hero() {
                         LIVE
                     </div>
                     <Image 
-                        src="/image/image1.webp"
+                        src="/image/pp1.jpg"
                         alt="image1"
                         fill
                         className="object-cover rounded-2xl z-0"
