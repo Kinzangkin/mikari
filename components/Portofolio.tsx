@@ -2,6 +2,8 @@
 import Card from "./ui/Card";
 import projects from "@/data/projects.json";
 import React, { useState } from "react";
+import Image from 'next/image';
+import images from '@/data/images.json';
 
 function Portofolio() {
   const [activeTab] = useState("all");
@@ -17,15 +19,16 @@ function Portofolio() {
     : filteredProjects.slice(0, 4);
 
   return (
-    <div className="flex flex-col justify-center items-center space-y-10 my-0">
-      <div className="flex flex-col items-center mt-20">
+    <div className="flex flex-col justify-center items-center space-y-10 my-0 relative">
+      {/* Subtle image collage background */}
+      <div className="flex flex-col items-center mt-20 relative z-10">
         <div className="inline-block bg-white/60 backdrop-blur-md px-6 py-3 rounded-full border-2 border-blue-300/50 shadow-lg mb-4">
           <h2 className="text-3xl md:text-4xl text-blue-900">Portfolio Showcase</h2>
         </div>
         <p className="text-blue-700/80 mt-4 z-20">Recent Live2D Animation Projects</p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 justify-center place-items-center w-full sm:px-25 px-5 transition-all duration-500">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 justify-center place-items-center w-full sm:px-25 px-5 transition-all duration-500 relative z-10">
         {displayedProjects.map((item) => (
           <Card key={item.id} title={item.title} media={item.media} type={item.type} link={item.link} />
         ))}

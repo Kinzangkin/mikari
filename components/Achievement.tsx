@@ -1,5 +1,7 @@
 "use client";
 import { FaStar, FaHeart, FaClock, FaMagic } from "react-icons/fa";
+import Image from 'next/image';
+import images from '@/data/images.json';
 
 const achievements = [
   {
@@ -31,7 +33,7 @@ const achievements = [
 export default function Achievement() {
   return (
     <section className=" relative py-20 px-6 mt-5">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
         <div className="text-center mb-12">
           <div className="inline-block bg-white/60 backdrop-blur-md px-6 py-3 rounded-full border-2 border-blue-300/50 shadow-lg mb-4">
@@ -56,15 +58,14 @@ export default function Achievement() {
               <div className="relative bg-white/70 backdrop-blur-xl rounded-2xl p-6 border-2 border-white/60 shadow-xl sm:text-center">
                 {/* Icon */}
                 <stat.icon
-                  className={`w-8 h-8 mx-auto mb-3 ${
-                    stat.color === "orange"
+                  className={`w-8 h-8 mx-auto mb-3 ${stat.color === "orange"
                       ? "text-orange-500"
                       : stat.color === "pink"
-                      ? "text-pink-500"
-                      : stat.color === "blue"
-                      ? "text-blue-500"
-                      : "text-purple-500"
-                  }`}
+                        ? "text-pink-500"
+                        : stat.color === "blue"
+                          ? "text-blue-500"
+                          : "text-purple-500"
+                    }`}
                 />
 
                 {/* Number */}

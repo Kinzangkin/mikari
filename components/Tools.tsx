@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FaPaintBrush, FaCut, FaFilm, FaStar } from "react-icons/fa"; // react-icons
+import { FaPaintBrush, FaFilm, FaStar } from "react-icons/fa"; // react-icons
 
 export function Tools() {
   const tools = [
@@ -23,9 +23,9 @@ export function Tools() {
       color: "purple",
     },
     {
-      name: "Clip Studio Paint",
+      name: "Ibispaint Paint",
       category: "Rendering",
-      icon: <FaCut className="w-10 h-10 text-orange-500" />,
+      icon: <FaPaintBrush className="w-10 h-10 text-orange-500" />,
       color: "orange",
     },
   ];
@@ -57,13 +57,12 @@ export function Tools() {
               <div className="relative bg-white/60 backdrop-blur-xl rounded-2xl p-6 border-2 border-white/60 shadow-xl h-full flex flex-col items-center text-center">
                 {/* Icon */}
                 <div
-                  className={`inline-flex p-5 rounded-2xl bg-linear-to-br mb-4 ${
-                    tool.color === "blue"
-                      ? "from-blue-400/20 to-blue-300/20"
-                      : tool.color === "purple"
+                  className={`inline-flex p-5 rounded-2xl bg-linear-to-br mb-4 ${tool.color === "blue"
+                    ? "from-blue-400/20 to-blue-300/20"
+                    : tool.color === "purple"
                       ? "from-purple-400/20 to-purple-300/20"
                       : "from-orange-400/20 to-orange-300/20"
-                  }`}
+                    }`}
                 >
                   {tool.icon}
                 </div>

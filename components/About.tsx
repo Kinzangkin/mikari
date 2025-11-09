@@ -1,5 +1,7 @@
 "use client";
 import { FaMagic, FaLayerGroup, FaCogs, FaFileExport } from "react-icons/fa";
+import Image from 'next/image';
+import images from '@/data/images.json';
 
 export default function ProcessSection() {
   const steps = [
@@ -10,8 +12,26 @@ export default function ProcessSection() {
   ];
 
   return (
-    <section className="w-full flex justify-center px-4 py-12">
-      <div className="w-full max-w-6xl mt-20 bg-white/60 backdrop-blur-md rounded-2xl shadow-lg p-6 md:p-10 flex flex-col lg:flex-row gap-8">
+    <section className="w-full flex justify-center px-4 py-12 relative">
+      {/* Accent images */}
+      <div className="absolute left-80 top-20 w-24 h-24 z-20">
+        <Image
+          src={images[2]}
+          alt="accent image left"
+          fill
+          className="object-cover rounded-full"
+        />
+      </div>
+      <div className="absolute right-70 bottom-1 w-32 h-32 z-20">
+        <Image
+          src={images[3]}
+          alt="accent image right"
+          fill
+          className="object-cover rounded-full"
+        />
+      </div>
+
+      <div className="w-full max-w-6xl mt-20 bg-white/60 backdrop-blur-md rounded-2xl shadow-lg p-6 md:p-10 flex flex-col lg:flex-row gap-8 relative z-10">
         {/* Left Section */}
         <div className="flex-1 space-y-4">
           <h2 className="text-2xl md:text-3xl font-semibold text-[#1e2a78] flex items-center gap-2">
