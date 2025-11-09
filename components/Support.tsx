@@ -74,7 +74,7 @@ export default function Support() {
                 You can also support or buy my digital products directly via SociaBuzz 🌟
               </p>
               <Link
-                href="https://sociabuzz.com/yourname"
+                href="https://sociabuzz.com/mikarileaf/shop"
                 target="_blank"
                 className="px-5 py-2 rounded-full bg-linear-to-r from-yellow-400 to-orange-400 text-white font-semibold shadow-md hover:shadow-yellow-300/40 transition z-20"
               >

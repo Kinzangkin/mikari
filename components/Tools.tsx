@@ -11,8 +11,8 @@ export function Tools() {
       color: "blue",
     },
     {
-      name: "Photoshop",
-      category: "Art",
+      name: "Alight Motion",
+      category: "Animation",
       icon: <FaPaintBrush className="w-10 h-10 text-blue-500" />,
       color: "blue",
     },
